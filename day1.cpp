@@ -27,26 +27,26 @@
 // job3:
 
 //job4:
-// int main() {
-//     // Déclaration des variables
-//     double nombre1, nombre2, somme;
-//
-//     // Demande du premier nombre à l'utilisateur
-//     std::cout << "Entrez le premier nombre : ";
-//     std::cin >> nombre1;
-//
-//     // Demande du deuxième nombre à l'utilisateur
-//     std::cout << "Entrez le deuxieme nombre : ";
-//     std::cin >> nombre2;
-//
-//     // Calcul de la somme
-//     somme = nombre1 + nombre2;
-//
-//     // Résultat
-//     std::cout << "La somme de " << nombre1 << " et " << nombre2 << " est : " << somme << std::endl;
-//
-//     return 0;
-// }
+int main() {
+    // Déclaration des variables
+    double nombre1, nombre2, somme;
+
+    // Demande du premier nombre à l'utilisateur
+    std::cout << "Entrez le premier nombre : ";
+    std::cin >> nombre1;
+
+    // Demande du deuxième nombre à l'utilisateur
+    std::cout << "Entrez le deuxieme nombre : ";
+    std::cin >> nombre2;
+
+    // Calcul de la somme
+    somme = nombre1 + nombre2;
+
+    // Résultat
+    std::cout << "La somme de " << nombre1 << " et " << nombre2 << " est : " << somme << std::endl;
+
+    return 0;
+}
 
 //job5:
 // int main() {
@@ -222,38 +222,38 @@
 // }
 
 //job14:
-int main() {
-    // Déclaration des variables
-    int nombre;
-    int nombreInverse = 0;
-
-    // Demande à l'utilisateur d'entrer un nombre
-    std::cout << "Entrez un nombre entier positif : ";
-    std::cin >> nombre;
-
-    // Vérification que le nombre est positif
-    if (nombre < 0) {
-        std::cout << "Erreur : veuillez entrer un nombre positif." << std::endl;
-        return 1; // Quitte le programme avec code d'erreur
-    }
-
-    // Sauvegarde du nombre original pour l'affichage
-    int nombreOriginal = nombre;
-
-    // Inversion du nombre
-    while (nombre > 0) {
-        // Extraction du dernier chiffre
-        int dernier_chiffre = nombre % 10;
-
-        // Ajout du dernier chiffre au nombre inversé
-        nombreInverse = nombreInverse * 10 + dernier_chiffre;
-
-        // Suppression du dernier chiffre du nombre original
-        nombre = nombre / 10;
-    }
-
-    // Affichage du résultat
-    std::cout << "Le nombre " << nombreOriginal << " inversé donne : " << nombreInverse << std::endl;
-
-    return 0;
-}
+// int main() {
+//     // Déclaration des variables
+//     int nombre;
+//     int nombreInverse = 0;
+//
+//     // Demande à l'utilisateur d'entrer un nombre
+//     std::cout << "Entrez un nombre entier positif : ";
+//     std::cin >> nombre;
+//
+//     // Vérification que le nombre est positif
+//     if (nombre < 0) {
+//         std::cout << "Erreur : veuillez entrer un nombre positif." << std::endl;
+//         return 1; // Quitte le programme avec code d'erreur
+//     }
+//
+//     // Sauvegarde du nombre original pour l'affichage
+//     int nombreOriginal = nombre;
+//
+//     // Inversion du nombre
+//     while (nombre > 0) {
+//         // Extraction du dernier chiffre
+//         int dernier_chiffre = nombre % 10;
+//
+//         // Ajout du dernier chiffre au nombre inversé
+//         nombreInverse = nombreInverse * 10 + dernier_chiffre;
+//
+//         // Suppression du dernier chiffre du nombre original
+//         nombre = nombre / 10;
+//     }
+//
+//     // Affichage du résultat
+//     std::cout << "Le nombre " << nombreOriginal << " inversé donne : " << nombreInverse << std::endl;
+//
+//     return 0;
+// }
